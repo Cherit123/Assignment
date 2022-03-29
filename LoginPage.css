@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+body{
+background:  url(background.jpeg);
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.content h2{
+    text-align: center;
+
+    font-size: 50px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.screen{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+
+    background-color:aliceblue;
+    margin: 100px;
+    border-radius: 20px;
+    
+}
+form{
+     padding-top: 20px;
+
+}
+hr{
+    margin-top: 30px;
+
+}
+.content input{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content button{
+    position: relative;
+    left: 1%;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content button:hover{
+    background-color:cyan;
+    transform: scale(1.5);
+}
+
+.social{
+    position: relative;
+    left: 100px;
+    top: 70px;
+
+
+}
+
+.social h2{
+    font-size: 40px;
+}
+
+.social .icon{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.social .icon a{
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid coral;
+
+}
+.social .icon a:hover{
+    color: cyan;
+}
